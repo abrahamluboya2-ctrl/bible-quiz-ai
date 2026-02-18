@@ -1,11 +1,11 @@
 
 import React, { useState, useEffect, useRef } from 'react';
-import { CATEGORIES, ICON_MAP } from './constants';
-import { Question, QuizState, Difficulty, QuizCategory, Language, AppView } from './types';
-import { generateQuestions } from './services/geminiService';
-import QuizCard from './components/QuizCard';
-import ResultScreen from './components/ResultScreen';
-import OfflineBible from './components/OfflineBible';
+import { CATEGORIES, ICON_MAP } from './src/constants';
+import { Question, QuizState, Difficulty, QuizCategory, Language, AppView } from './src/types';
+import { generateQuestions } from './src/services/geminiService';
+import QuizCard from './src/components/QuizCard';
+import ResultScreen from './src/components/ResultScreen';
+import OfflineBible from './src/components/OfflineBible';
 import { 
   Menu, 
   Moon, 
