@@ -1,0 +1,22 @@
+
+{
+  "name": "BibleCore AI Quiz",
+  "short_name": "BibleCore",
+  "description": "Exploration spirituelle et quiz biblique intelligent.",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#121211",
+  "theme_color": "#121211",
+  "icons": [
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/2903/2903521.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/2903/2903521.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
